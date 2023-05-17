@@ -12,10 +12,10 @@ const About = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1200px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Hey, my name is Jayden. A passionate software developer based in
+              Hey, my name is Jayden. A passionate software engineer based in
               Toronto, Canada.📍
             </p>
           </div>
@@ -24,13 +24,14 @@ const About = () => {
               className="text-[#787878]  "
               // style={{ fontFamily: 'Mulish, sans-serif' }}
             >
-              I primarily specialize in JavaScript and React.js for development
-              while also have experience with MySQL database. I have a strong
-              expertise in creating dynamic and engaging interfaces by writing
-              clean code and utilizing modern development tools. What truly
-              thrives me is working in collaborative environments, as I strongly
-              believe they provide the perfect atmosphere for personal growth
-              and self-improvement.
+              I primarily develop in JavaScript and React.js for{' '}
+              <i>front-end</i> development while also have experience with{' '}
+              <i>back-end</i> Firebase/MySQL database. I have a strong expertise
+              in creating dynamic and engaging interfaces by writing optimized
+              code and utilizing modern development tools. What truly thrills me
+              is working in collaborative environments, as I strongly believe
+              they provide the perfect atmosphere for personal growth and
+              self-improvement.
             </p>
           </div>
         </div>
