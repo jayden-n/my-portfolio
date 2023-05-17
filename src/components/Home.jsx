@@ -10,6 +10,7 @@ const Home = () => {
     loop: {},
     deleteSpeed: 45,
     typeSpeed: 85,
+    delaySpeed: 3000,
   });
   return (
     <div name="home" className="w-full h-screen bg-[#f9f9f9]">
