@@ -6,6 +6,7 @@ import Monsters from '../assets/projects/monsters-rolodex.jpg';
 import Dinosaur from '../assets/projects/dinosaur.jpg';
 import PigGame from '../assets/projects/pig-game.jpg';
 import Wardrobe from '../assets/projects/wardrobe.jpg';
+import Cinephoria from '../assets/projects/cinephoria.jpg';
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-[#312F2F] bg-[#ffffff]">
@@ -17,7 +18,7 @@ const Work = () => {
           <p className="py-6">// Check out some of my recent work! </p>
         </div>
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           {/* Grid Item 1 */}
           <div
             style={{ backgroundImage: `url(${Wardrobe})` }}
@@ -45,6 +46,39 @@ const Work = () => {
                   rel="noopener noreferrer"
                 >
                   <button class="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item 1.5 */}
+          <div
+            style={{ backgroundImage: `url(${Cinephoria})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md text-center flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider flex justify-between">
+                Cinephoria <br></br> (React web app using Tailwind CSS and
+                Firebase)
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://cinephoria-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/jayden-n/cinephoria"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -182,12 +216,12 @@ const Work = () => {
             </div>
           </div>
           {/* Grid Item 6 */}
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${PigGame})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
+          >*/}
+          {/* Hover effect */}
+          {/*    <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider text-center flex justify-between">
                 Dice Game <br></br> (Pure JavaScript app using DOM)
               </span>
@@ -212,7 +246,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>
