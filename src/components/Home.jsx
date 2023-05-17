@@ -16,7 +16,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#f9f9f9]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-7 flex flex-col justify-center h-full">
-        <p className="text-[#312F2F] mb-2 text-2xl">Hello, World!</p>
+        <p className="text-[#312F2F] mb-2 font-bold text-2xl">Hello, World!</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#312F2F]">
           I'm Jayden Nguyen 👋🏼
         </h1>
