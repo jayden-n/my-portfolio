@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
-} from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
@@ -20,43 +13,46 @@ const Navbar = () => {
     <div className="fixed shadow-md w-full h-[85px] flex justify-between items-center px-10 bg-[#ffffff] text-[#36373b]">
       <div>
         <Link to="home" smooth={true} duration={500}>
-          <p className="text-2xl font-bold cursor-pointer text-[#137efb]">
+          <p
+            className="text-2xl font-bold cursor-pointer text-[#36373b]"
+            style={{ fontFamily: 'Poppins, sans-serif' }}
+          >
             Jayden.dev
           </p>
 
-          {/*   <img
-            className="cursor-pointer"
-            src={Logo}
-            alt="Logo"
-            style={{ width: '50px' }}
-          /> */}
+          {/* <img
+        className="cursor-pointer"
+        src={Logo}
+        alt="Logo"
+        style={{ width: '50px' }}
+      /> */}
         </Link>
       </div>
 
       {/* Menu */}
 
-      <ul className="hidden md:flex">
-        <li>
+      <ul className="hidden md:flex text-xl">
+        <li className="hover:text-[#137efb]">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:text-[#137efb]">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:text-[#137efb]">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:text-[#137efb]">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className="hover:text-[#137efb]">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -142,7 +138,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://drive.google.com/file/d/1LNqiBT14_UQsLcSGqV-3N1Y5R-vPT8-E/view?usp=share_link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

@@ -38,7 +38,10 @@ const Home = () => {
             </span>
           </h2>
         </div>
-        <p className="text-[#8892b0] py-4 pt-6 max-w-[700px]">
+        <p
+          className="text-[#787878] py-4 pt-6 max-w-[700px]"
+          // style={{ fontFamily: 'Mulish, sans-serif' }}
+        >
           I’m a dedicated software engineer specializing in building (and
           occasionally designing) exceptional digital experiences. Currently,
           I’m focusing on building responsive full-stack web applications.

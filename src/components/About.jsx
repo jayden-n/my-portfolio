@@ -21,8 +21,8 @@ const About = () => {
           </div>
           <div>
             <p
-              className="text-[#787878] font-bold text-lg"
-              style={{ fontFamily: 'Mulish, sans-serif' }}
+              className="text-[#787878]  "
+              // style={{ fontFamily: 'Mulish, sans-serif' }}
             >
               I primarily specialize in JavaScript and React.js for development
               while also have experience with MySQL database. I have a strong

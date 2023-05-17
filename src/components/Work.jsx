@@ -1,6 +1,5 @@
 import React from 'react';
-import WorkImg from '../assets/projects/workImg.jpeg';
-import realEstate from '../assets/projects/realestate.jpg';
+
 import Bankist from '../assets/projects/bankist.jpg';
 import Mapty from '../assets/projects/mapty.jpg';
 import Monsters from '../assets/projects/monsters-rolodex.jpg';
