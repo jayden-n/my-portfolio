@@ -15,17 +15,22 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Hi. I'm Jayden Nguyen, nice to meet you. Please take a look
-              around.
+              Hi, my name is Jayden. A passionate software developer based in
+              Toronto, Canada.📍
             </p>
           </div>
           <div>
-            <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+            <p
+              className="text-[#787878] font-bold text-lg"
+              style={{ fontFamily: 'Mulish, sans-serif' }}
+            >
+              I primarily specialize in JavaScript and React.js for development
+              while also have experience with MySQL database. I have a strong
+              expertise in creating dynamic and engaging interfaces by writing
+              clean code and utilizing modern development tools. What truly
+              thrives me is working in collaborative environments, as I strongly
+              believe they provide the perfect atmosphere for personal growth
+              and self-improvement.
             </p>
           </div>
         </div>

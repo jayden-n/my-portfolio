@@ -6,10 +6,11 @@ import { Link } from 'react-scroll';
 import { useTypewriter } from 'react-simple-typewriter';
 const Home = () => {
   const [text] = useTypewriter({
-    words: ['JavaScript Developer.', 'Front-End Engineer.'],
+    words: ['Software Engineer.', 'JavaScript Developer.'],
     loop: {},
+    deleteSpeed: 45,
+    typeSpeed: 85,
   });
-
   return (
     <div name="home" className="w-full h-screen bg-[#f9f9f9]">
       {/* Container */}
@@ -21,7 +22,7 @@ const Home = () => {
         <div className="pt-4">
           <h2 className="text-4xl sm:text-6xl font-bold text-[#787878]">
             A
-            <span className="ml-3 text-4xl sm:text-6xl font-bold text-[#787878]">
+            <span className="ml-3 text-4xl sm:text-6xl font-bold text-[#787878] sha">
               {text}
               {/* <Typewriter
             options={
@@ -38,14 +39,26 @@ const Home = () => {
           </h2>
         </div>
         <p className="text-[#8892b0] py-4 pt-6 max-w-[700px]">
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          I’m a dedicated software engineer specializing in building (and
+          occasionally designing) exceptional digital experiences. Currently,
+          I’m focusing on building responsive full-stack web applications.
         </p>
-        <div>
+        <div className="w-50">
           <Link to="work" smooth={true} duration={500}>
-            <button className="text-[#f9f9f9] group border-1 font-bold cursor-pointer px-6 py-3 my-2 flex items-center rounded bg-[#137efb] hover:border-[#137efb]">
-              View my projects
+            <button
+              style={{
+                boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
+                transition: 'box-shadow 0.3s ease',
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.2)';
+              }}
+              onMouseEnter={(e) => {
+                e.target.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
+              }}
+              className="text-[#f9f9f9] group border-1 font-bold cursor-pointer px-6 py-3 my-2 flex items-center rounded bg-[#137efb] hover:border-[#137efb]"
+            >
+              See my projects
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3 " />
               </span>
