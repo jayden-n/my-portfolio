@@ -18,7 +18,7 @@ const Skills = () => {
     <div name="skills" className="w-full h-screen bg-[#f9f9f9] text-[#312F2F]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div data-aos="fade-down-left">
+        <div data-aos="fade-left">
           <p className="text-5xl font-bold inline text-[#0097B2]  ">
             Tech Stack.
           </p>
@@ -28,7 +28,7 @@ const Skills = () => {
         </div>
 
         <div
-          data-aos="fade-up-right"
+          data-aos="fade-right"
           className="w-full bg-[#f9f9f9] grid grid-cols-2 sm:grid-cols-4 gap-4 text-center pt-10"
         >
           <div className="shadow-md  hover:scale-110 duration-500">
