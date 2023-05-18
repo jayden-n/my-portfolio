@@ -26,9 +26,7 @@ const Navbar = () => {
         style={{ width: '50px' }}
       /> */}
       </div>
-
       {/* Menu */}
-
       <ul className="hidden md:flex text-xl">
         <li className="hover:text-[#0097B2]">
           <Link to="about" smooth={true} duration={500}>
@@ -51,8 +49,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      {/* Hamburger */}
+      {/* Hamburger 
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? (
           <FaBars className="cursor-pointer" />
@@ -61,7 +58,7 @@ const Navbar = () => {
         )}
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile menu 
       <ul
         className={
           nav
@@ -125,6 +122,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      */}
       {/* Social icons
      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
