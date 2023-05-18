@@ -14,7 +14,7 @@ const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-[#312F2F] bg-[#ffffff]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div data-aos="fade-down-right" className="pb-8">
+        <div data-aos="fade-down-left" className="pb-8">
           <p className="text-5xl font-bold inline text-[#0097B2]">
             My projects.
           </p>
@@ -22,7 +22,7 @@ const Work = () => {
         </div>
         {/* Container */}
         <div
-          data-aos="fade-up-left"
+          data-aos="fade-up-right"
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-5"
         >
           {/* Grid Item 1 */}
