@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Bankist from '../assets/projects/bankist.jpg';
 import Mapty from '../assets/projects/mapty.jpg';
@@ -7,18 +7,24 @@ import Dinosaur from '../assets/projects/dinosaur.jpg';
 import PigGame from '../assets/projects/pig-game.jpg';
 import Wardrobe from '../assets/projects/wardrobe.jpg';
 import Cinephoria from '../assets/projects/cinephoria.jpg';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-[#312F2F] bg-[#ffffff]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-5xl font-bold inline text-[#137efb]">
+        <div data-aos="fade-down-right" className="pb-8">
+          <p className="text-5xl font-bold inline text-[#0097B2]">
             My projects.
           </p>
           <p className="py-6">// Check out some of my recent work! </p>
         </div>
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div
+          data-aos="fade-up-left"
+          className="grid sm:grid-cols-2 md:grid-cols-3 gap-5"
+        >
           {/* Grid Item 1 */}
           <div
             style={{ backgroundImage: `url(${Wardrobe})` }}
