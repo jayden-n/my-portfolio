@@ -11,22 +11,23 @@ import Cinephoria from '../assets/projects/cinephoria.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Work = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div name="work" className="w-full md:h-screen text-[#312F2F] bg-[#ffffff]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div data-aos="fade-down-left" className="pb-8">
+        <div data-aos="fade-right" className="pb-8">
           <p className="text-5xl font-bold inline text-[#0097B2]">
             My projects.
           </p>
           <p className="py-6">// Check out some of my recent work! </p>
         </div>
         {/* Container */}
-        <div
-          data-aos="fade-up-right"
-          className="grid sm:grid-cols-2 md:grid-cols-3 gap-5"
-        >
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           {/* Grid Item 1 */}
           <div
+            data-aos="fade-right"
             style={{ backgroundImage: `url(${Wardrobe})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -60,6 +61,7 @@ const Work = () => {
           </div>
           {/* Grid Item 1.5 */}
           <div
+            data-aos="fade-down"
             style={{ backgroundImage: `url(${Cinephoria})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md text-center flex justify-center items-center mx-auto content-div"
           >
@@ -93,6 +95,7 @@ const Work = () => {
           </div>
           {/* Grid Item 2 */}
           <div
+            data-aos="fade-left"
             style={{ backgroundImage: `url(${Mapty})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md text-center flex justify-center items-center mx-auto content-div"
           >
@@ -126,6 +129,7 @@ const Work = () => {
           </div>
           {/* Grid Item 3 */}
           <div
+            data-aos="fade-right"
             style={{ backgroundImage: `url(${Bankist})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -159,6 +163,7 @@ const Work = () => {
           </div>
           {/* Grid Item 4 */}
           <div
+            data-aos="fade-up"
             style={{ backgroundImage: `url(${Monsters})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -191,6 +196,7 @@ const Work = () => {
           </div>
           {/* Grid Item 5 */}
           <div
+            data-aos="fade-left"
             style={{ backgroundImage: `url(${Dinosaur})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
