@@ -53,16 +53,16 @@ const Wrapper = styled.section`
   position: relative;
 
   .top-btn {
-    font-size: 2.1rem;
-    width: 5rem;
-    height: 5rem;
+    font-size: 1.8rem;
+    width: 4rem;
+    height: 4rem;
     color: #f9f9f9;
     background-color: #0097b2;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     border-radius: 50%;
     position: fixed;
-    bottom: 4rem;
+    bottom: 3rem;
     right: 4rem;
     z-index: 999;
     display: flex;
@@ -76,23 +76,36 @@ const Wrapper = styled.section`
 
     @keyframes gototop {
       0% {
-        transform: translateY(-0.5rem);
+        transform: translateY(-0.4rem);
       }
       100% {
-        transform: translateY(1rem);
+        transform: translateY(0.5rem);
       }
     }
   }
-  @media (max-width: 500px) {
+  @media (max-width: 650px) {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     .top-btn {
-      width: 4rem;
-      height: 4rem;
-      font-size: 1.9rem;
+      width: 3rem;
+      height: 3rem;
+      bottom: 2rem;
+      right: 3rem;
+      font-size: 1.4rem;
       position: fixed;
+    }
+    &--icon {
+      animation: gototop 1s linear infinite alternate-reverse;
+    }
+    @keyframes gototop {
+      0% {
+        transform: translateY(-0.3rem);
+      }
+      100% {
+        transform: translateY(0.4rem);
+      }
     }
   }
 `;
