@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaArrowUp, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
 import AOS from 'aos';
@@ -50,7 +50,7 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <div data-aos="fade-left" data-aos-duration="1700">
+        <div data-aos="fade-left" data-aos-duration="1000">
           <button
             style={{
               boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
