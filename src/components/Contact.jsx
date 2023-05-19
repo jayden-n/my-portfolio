@@ -14,7 +14,7 @@ const Contact = () => {
       <form
         method="POST"
         action="https://getform.io/f/7fe3e8cb-d489-4ca4-827c-1379dcfa769f"
-        className="flex flex-col max-w-[600px] w-full"
+        className="flex flex-col max-w-[600px] w-full mb-10"
       >
         <div className="pb-8">
           <p className="text-5xl font-bold inline text-[#0097B2]">Contact</p>
@@ -62,7 +62,7 @@ const Contact = () => {
             onMouseEnter={(e) => {
               e.target.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
             }}
-            className="text-[#f9f9f9] boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)' transition: 'box-shadow 0.3s ease' border-1  bg-[#0097B2] hover:border-[#0097B2] rounded px-5 py-3 mt-10 mb-6 mx-auto flex items-center"
+            className="text-[#f9f9f9] boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)' transition: 'box-shadow 0.3s ease' border-1  bg-[#0097B2] hover:border-[#0097B2] rounded px-5 py-3 mt-10 mb-6 mx-auto flex items-center hover:opacity-90"
           >
             Let's Collaborate! 🚀
           </button>
@@ -73,7 +73,10 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="cursor-pointer  text-[#312F2F]" size={28} />
+              <FaGithub
+                className="cursor-pointer  text-[#312F2F] hover:opacity-60"
+                size={28}
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/jayden-nguyen-4b3a33219/"
@@ -81,7 +84,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <FaLinkedin
-                className="cursor-pointer  text-[#312F2F]"
+                className="cursor-pointer  text-[#312F2F] hover:opacity-60"
                 size={30}
               />
             </a>
@@ -91,7 +94,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <HiOutlineMail
-                className="cursor-pointer  text-[#312F2F]"
+                className="cursor-pointer  text-[#312F2F] hover:opacity-60"
                 size={38}
               />
             </a>

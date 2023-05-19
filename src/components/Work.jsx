@@ -15,7 +15,10 @@ const Work = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div name="work" className="w-full md:h-screen text-[#787878] bg-[#ffffff]">
+    <div
+      name="work"
+      className="w-full pb-20 md:h-screen text-[#787878] bg-[#ffffff]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div data-aos="fade-right" className="pb-8">
           <p className="text-5xl font-bold inline text-[#0097B2]">

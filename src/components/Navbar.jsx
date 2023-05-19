@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="absolute shadow-md w-full h-[85px] flex justify-between items-center px-10 bg-[#ffffff] text-[#36373b]">
+    <div className="absolute shadow-md w-full h-[76px] flex justify-between items-center lg:px-20 px-11 bg-[#ffffff] text-[#36373b]">
       <div>
         <p
           className="text-2xl font-bold text-[#0097B2]"
@@ -18,7 +18,6 @@ const Navbar = () => {
         >
           Jayden.dev
         </p>
-
         {/* <img
         className="cursor-pointer"
         src={Logo}
@@ -26,7 +25,14 @@ const Navbar = () => {
         style={{ width: '50px' }}
       /> */}
       </div>
-      {/* Menu */}
+      <div>
+        <Link to="contact" smooth={true} duration={650}>
+          <button className=" border-2 text-[#0097B2] border-[#0097B2] px-5 py-3 flex items-center rounded hover:bg-[#0097B2] hover:text-[#ffffff]  transition-all">
+            Let's Connect!
+          </button>
+        </Link>
+      </div>
+      {/* Menu 
       <ul className="hidden md:flex text-xl">
         <li className="hover:text-[#0097B2]">
           <Link to="about" smooth={true} duration={500}>
@@ -48,7 +54,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-      </ul>
+      </ul>*/}
       {/* Hamburger 
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? (

@@ -28,6 +28,14 @@
     hsla(242, 74%, 61%, 0.8)
   ) !important;
 }
+.active {
+  background: #0097b2;
+}
+.active {
+  color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 100%;
+}
 * {
   font-family: 'Poppins', sans-serif;
 }

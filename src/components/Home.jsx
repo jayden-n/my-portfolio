@@ -21,23 +21,23 @@ const Home = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div name="home" className="w-full h-screen bg-[#f9f9f9]">
+    <div name="home" className="w-full h-screen bg-[#f9f9f9] mx-auto">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-7 flex flex-col justify-center h-full">
         <p
           data-aos="fade-right"
-          className="text-[#312F2F] mb-2 font-bold text-2xl"
+          className="text-[#312F2F] mb-2 font-bold text-2xl lg:pl-16"
         >
           Hello, World!
         </p>
         <h1
           data-aos="fade-right"
-          className="text-4xl sm:text-7xl font-bold text-[#312F2F]"
+          className="text-4xl sm:text-7xl font-bold text-[#312F2F] lg:pl-16"
         >
           I'm Jayden Nguyen 👋🏼
         </h1>
         <div data-aos="fade-right" className="pt-4">
-          <h2 className="text-4xl sm:text-6xl font-bold text-[#787878]">
+          <h2 className="text-4xl sm:text-6xl font-bold text-[#787878] lg:pl-16">
             A
             <span className="ml-3 text-4xl sm:text-6xl font-bold text-[#787878] sha">
               {text}
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <p
           data-aos="fade-left"
-          className="text-[#787878] py-4 font-bold pt-6 max-w-[700px]"
+          className="text-[#787878] py-4 font-bold pt-6 max-w-[700px] lg:pl-16"
           style={{ fontFamily: 'Mulish, sans-serif' }}
         >
           I’m a dedicated software engineer specializing in building (and
@@ -66,7 +66,7 @@ const Home = () => {
         </p>
         <div
           data-aos="fade-left"
-          className="w-30 flex justify-start items-center w-full gap-3 "
+          className="w-30 flex justify-start items-center w-full gap-3 lg:pl-16"
         >
           <a
             href="https://drive.google.com/file/d/1LNqiBT14_UQsLcSGqV-3N1Y5R-vPT8-E/view?usp=share_link"
@@ -74,7 +74,7 @@ const Home = () => {
             rel="noopener noreferrer"
           >
             <button
-              className="text-[#f9f9f9]  cursor-pointer px-6 py-3 my-2 flex items-center rounded bg-[#0097B2] "
+              className="text-[#f9f9f9]  cursor-pointer px-6 py-3 my-2 flex items-center rounded bg-[#0097B2] hover:opacity-90 "
               style={{
                 boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
                 transition: 'box-shadow 0.3s ease',
@@ -95,14 +95,20 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="cursor-pointer text-[#312F2F]" size={28} />
+            <FaGithub
+              className="cursor-pointer text-[#312F2F] hover:opacity-60"
+              size={28}
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/jayden-nguyen-4b3a33219/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="cursor-pointer text-[#312F2F]" size={30} />
+            <FaLinkedin
+              className="cursor-pointer text-[#312F2F] hover:opacity-60"
+              size={30}
+            />
           </a>
         </div>
       </div>

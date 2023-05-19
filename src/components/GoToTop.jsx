@@ -91,7 +91,7 @@ const Wrapper = styled.section`
     .top-btn {
       width: 3rem;
       height: 3rem;
-      bottom: 2rem;
+      bottom: 7rem;
       right: 3rem;
       font-size: 1.4rem;
       position: fixed;

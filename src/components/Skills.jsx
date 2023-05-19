@@ -15,7 +15,10 @@ const Skills = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div name="skills" className="w-full h-screen bg-[#f9f9f9] text-[#787878]">
+    <div
+      name="skills"
+      className="w-full h-screen bg-[#f9f9f9] text-[#787878] pb-20"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div data-aos="fade-left">
