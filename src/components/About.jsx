@@ -61,7 +61,7 @@ const About = () => {
             >
               🚀 What truly thrills me is working in collaborative environments,
               as I strongly believe they provide the perfect atmosphere for
-              personal growth and self-improvement.
+              personal growth and self-improvement!
             </p>
           </div>
         </div>
