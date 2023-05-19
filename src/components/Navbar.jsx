@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li className="hover:text-[#0097B2]">
           <Link to="work" smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li className="hover:text-[#0097B2]">
