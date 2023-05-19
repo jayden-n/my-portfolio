@@ -18,27 +18,35 @@ const Contact = () => {
       >
         <div className="pb-8">
           <p className="text-5xl font-bold inline text-[#0097B2]">Contact</p>
-          <p className="text-[#312F2F] py-4">
+          <p
+            className="text-[#787878] py-4 font-bold"
+            style={{ fontFamily: 'Mulish, sans-serif' }}
+          >
             // Submit the form below or just simply shoot me an email -
-            <i> jaydennguyen.dev@gmail.com</i>
+            <i style={{ fontFamily: 'Mulish, sans-serif' }}>
+              {' '}
+              jaydennguyen.dev@gmail.com
+            </i>
           </p>
         </div>
         <input
           className="bg-[#e6edfc] p-2"
           type="text"
           placeholder="Name"
-          style={{ color: '#312F2F' }}
+          style={{ color: '#787878' }}
           name="name"
         />
         <input
           className="my-4 p-2 bg-[#e6edfc]"
           type="email"
           placeholder="Email"
+          style={{ color: '#787878' }}
           name="email"
         />
         <textarea
           className="bg-[#e6edfc] p-2"
           name="message"
+          style={{ color: '#787878' }}
           rows="10"
           placeholder="Message"
         ></textarea>

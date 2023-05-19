@@ -15,14 +15,17 @@ const Skills = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div name="skills" className="w-full h-screen bg-[#f9f9f9] text-[#312F2F]">
+    <div name="skills" className="w-full h-screen bg-[#f9f9f9] text-[#787878]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div data-aos="fade-left">
           <p className="text-5xl font-bold inline text-[#0097B2]  ">
             Tech Stack.
           </p>
-          <p className="py-4">
+          <p
+            className="py-4 font-bold"
+            style={{ fontFamily: 'Mulish, sans-serif' }}
+          >
             // Here are technologies I've been working with recently:
           </p>
         </div>

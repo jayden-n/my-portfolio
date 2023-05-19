@@ -23,22 +23,45 @@ const About = () => {
           >
             <p>
               Hey, my name is Jayden. A passionate software engineer based in
-              Toronto, Canada.📍
+              Toronto, Canada.
             </p>
           </div>
           <div data-aos="fade-left">
             <p
-              className="text-[#787878]  "
-              // style={{ fontFamily: 'Mulish, sans-serif' }}
+              className="text-[#787878] mb-2.5 "
+              style={{ fontFamily: 'Mulish, sans-serif' }}
             >
-              I primarily develop in JavaScript and React.js for{' '}
-              <i>front-end</i> development while also have experience with{' '}
-              <i>back-end</i> Firebase/MySQL database. I have a strong expertise
-              in creating dynamic and engaging interfaces by writing optimized
-              code and utilizing modern development tools. What truly thrills me
-              is working in collaborative environments, as I strongly believe
-              they provide the perfect atmosphere for personal growth and
-              self-improvement.
+              {' '}
+              🎯 I primarily develop in JavaScript and React.js for{' '}
+              <i
+                style={{
+                  fontFamily: 'Mulish, sans-serif',
+                  marginBottom: '15em',
+                }}
+              >
+                front-end
+              </i>{' '}
+              development while also have experience with{' '}
+              <i style={{ fontFamily: 'Mulish, sans-serif' }}>back-end</i>{' '}
+              Firebase/MySQL database.
+              <br></br>{' '}
+            </p>
+            <p
+              className="text-[#787878] mb-2.5 "
+              style={{ fontFamily: 'Mulish, sans-serif' }}
+            >
+              🧩 I also have a strong expertise in creating dynamic and engaging
+              interfaces by writing optimized code and utilizing modern
+              development tools.
+              <br></br>
+            </p>
+            <p
+              className="text-[#787878]  "
+              style={{ fontFamily: 'Mulish, sans-serif' }}
+            >
+              🚀 What truly thrills me is working in collaborative environments,
+              as I strongly believe they provide the perfect atmosphere for
+              personal growth and self-improvement.
             </p>
           </div>
         </div>

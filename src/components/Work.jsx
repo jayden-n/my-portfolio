@@ -15,13 +15,18 @@ const Work = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div name="work" className="w-full md:h-screen text-[#312F2F] bg-[#ffffff]">
+    <div name="work" className="w-full md:h-screen text-[#787878] bg-[#ffffff]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div data-aos="fade-right" className="pb-8">
           <p className="text-5xl font-bold inline text-[#0097B2]">
             My projects.
           </p>
-          <p className="py-6">// Check out some of my recent work! </p>
+          <p
+            className="py-6 font-bold"
+            style={{ fontFamily: 'Mulish, sans-serif' }}
+          >
+            // Check out some of my recent work!{' '}
+          </p>
         </div>
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
