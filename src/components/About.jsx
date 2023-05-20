@@ -8,10 +8,10 @@ const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#ffffff] text-[#312F2F]">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
+        <div className="max-w-[1150px] w-full grid grid-cols-2 gap-8">
           <div data-aos="fade-down" className="sm:text-right pb-8 pl-4">
             <p className="text-5xl text-[#0097B2] font-bold inline ">
-              About me.
+              About Jayden.
             </p>
           </div>
           <div></div>
@@ -22,8 +22,8 @@ const About = () => {
             className="sm:text-right text-4xl font-bold"
           >
             <p>
-              Hey, my name is Jayden. A passionate software engineer based in
-              Toronto, Canada.
+              Hey there, nice to meet ya! <br></br> I'm a software engineer
+              based in Toronto, Canada.
             </p>
           </div>
           <div data-aos="fade-left">
@@ -36,7 +36,6 @@ const About = () => {
               <i
                 style={{
                   fontFamily: 'Mulish, sans-serif',
-                  marginBottom: '15em',
                 }}
               >
                 front-end

@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <p
           data-aos="fade-left"
-          className="text-[#787878] py-4 font-bold pt-6 max-w-[700px] lg:pl-16"
+          className="text-[#787878] py-4 pt-6 max-w-[700px] lg:pl-16"
           style={{ fontFamily: 'Mulish, sans-serif' }}
         >
           🪴 I’m a dedicated software engineer specializing in building (and

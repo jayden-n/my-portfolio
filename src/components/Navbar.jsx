@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="absolute shadow-md w-full h-[76px] flex justify-between items-center lg:px-20 px-11 bg-[#ffffff] text-[#36373b]">
+    <div className="absolute shadow-md w-full h-[80px] flex justify-between items-center lg:px-20 px-11 bg-[#ffffff] text-[#36373b]">
       <div>
         <p
           className="text-2xl font-bold text-[#0097B2]"
