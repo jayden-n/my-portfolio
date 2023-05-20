@@ -22,8 +22,9 @@ const About = () => {
             className="sm:text-right text-4xl font-bold"
           >
             <p>
-              Howdy, nice to meet ya! <br></br> I'm a software engineer based in
-              Toronto, Canada.
+              Howdy, nice to meet ya! <br></br> I'm a software engineer based in{' '}
+              <br></br>
+              📍Toronto, Canada.
             </p>
           </div>
           <div data-aos="fade-left">
