@@ -11,19 +11,19 @@ const About = () => {
         <div className="max-w-[1150px] w-full grid grid-cols-2 gap-8">
           <div data-aos="fade-down" className="sm:text-right pb-8 pl-4">
             <p className="text-5xl text-[#0097B2] font-bold inline ">
-              About Jayden.
+              About Me.
             </p>
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1200px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1350px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div
             data-aos="fade-right"
             className="sm:text-right text-4xl font-bold"
           >
             <p>
-              Hey there, nice to meet ya! <br></br> I'm a software engineer
-              based in Toronto, Canada.
+              Howdy, nice to meet ya! <br></br> I'm a software engineer based in
+              Toronto, Canada.
             </p>
           </div>
           <div data-aos="fade-left">

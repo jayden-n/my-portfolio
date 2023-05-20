@@ -21,7 +21,7 @@ const NavBottom = () => {
             to="home"
             activeClass="active"
             smooth={true}
-            duration={650}
+            duration={600}
             spy={true}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
@@ -31,7 +31,7 @@ const NavBottom = () => {
             to="about"
             activeClass="active"
             smooth={true}
-            duration={650}
+            duration={600}
             spy={true}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
@@ -41,7 +41,7 @@ const NavBottom = () => {
             to="skills"
             activeClass="active"
             smooth={true}
-            duration={650}
+            duration={600}
             spy={true}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
@@ -51,7 +51,7 @@ const NavBottom = () => {
             to="work"
             activeClass="active"
             smooth={true}
-            duration={650}
+            duration={600}
             spy={true}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
@@ -61,7 +61,7 @@ const NavBottom = () => {
             to="contact"
             activeClass="active"
             smooth={true}
-            duration={650}
+            duration={600}
             spy={true}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
