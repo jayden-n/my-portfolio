@@ -2,12 +2,10 @@ import React, { useEffect } from 'react';
 
 import Bankist from '../assets/projects/bankist.jpg';
 import Mapty from '../assets/projects/mapty.jpg';
-import Monsters from '../assets/projects/monsters-rolodex.jpg';
 import Dinosaur from '../assets/projects/dinosaur.jpg';
-import PigGame from '../assets/projects/pig-game.jpg';
 import Wardrobe from '../assets/projects/wardrobe.jpg';
 import Cinephoria from '../assets/projects/cinephoria.jpg';
-
+import Crypto from '../assets/projects/coin-tracker.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Work = () => {
@@ -36,6 +34,40 @@ const Work = () => {
           {/* Grid Item 1 */}
           <div
             data-aos="fade-right"
+            style={{ backgroundImage: `url(${Crypto})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider text-center flex justify-between">
+                Coin Tracker <br></br> (React web app using Material UI, ChartJS
+                and Firebase)
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://coin-tracker-web-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/jayden-n/coin-tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item 2 */}
+          <div
+            data-aos="fade-down"
             style={{ backgroundImage: `url(${Wardrobe})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -67,9 +99,9 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Grid Item 1.5 */}
+          {/* Grid Item 3 */}
           <div
-            data-aos="fade-down"
+            data-aos="fade-left"
             style={{ backgroundImage: `url(${Cinephoria})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md text-center flex justify-center items-center mx-auto content-div"
           >
@@ -101,9 +133,9 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Grid Item 2 */}
+          {/* Grid Item 4 */}
           <div
-            data-aos="fade-left"
+            data-aos="fade-up-right"
             style={{ backgroundImage: `url(${Mapty})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md text-center flex justify-center items-center mx-auto content-div"
           >
@@ -135,9 +167,9 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Grid Item 3 */}
+          {/* Grid Item 5 */}
           <div
-            data-aos="fade-right"
+            data-aos="fade-up"
             style={{ backgroundImage: `url(${Bankist})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -169,42 +201,10 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Grid Item 4 */}
+
+          {/* Grid Item 6 */}
           <div
-            data-aos="fade-up"
-            style={{ backgroundImage: `url(${Monsters})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider text-center flex justify-between">
-                Monsters Rolodex <br></br> (React app based on React-DOM)
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://monsters-rolodex-reactjs-app.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/jayden-n/monsters-rolodex-reactjs"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Grid Item 5 */}
-          <div
-            data-aos="fade-left"
+            data-aos="fade-up-left"
             style={{ backgroundImage: `url(${Dinosaur})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -235,38 +235,6 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Grid Item 6 */}
-          {/* <div
-            style={{ backgroundImage: `url(${PigGame})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >*/}
-          {/* Hover effect */}
-          {/*    <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider text-center flex justify-between">
-                Dice Game <br></br> (Pure JavaScript app using DOM)
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://pig-game-9033c.web.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/jayden-n/Pig-Game"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>*/}
         </div>
       </div>
     </div>
