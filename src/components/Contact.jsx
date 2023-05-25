@@ -22,11 +22,8 @@ const Contact = () => {
             className="text-[#787878] py-4 font-bold"
             style={{ fontFamily: 'Mulish, sans-serif' }}
           >
-            // Submit the form below or just simply shoot me an email -
-            <i style={{ fontFamily: 'Mulish, sans-serif' }}>
-              {' '}
-              jaydennguyen.dev@gmail.com
-            </i>
+            // I will love to hear from you. Whether it's a project, a job
+            opportunity, or just a chat. Please feel free to contact me!
           </p>
         </div>
         <input
