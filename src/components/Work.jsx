@@ -113,7 +113,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://cinephoria-app.netlify.app/"
+                  href="https://cinephoria-web-app.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
