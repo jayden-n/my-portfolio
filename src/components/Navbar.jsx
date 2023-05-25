@@ -12,12 +12,14 @@ const Navbar = () => {
   return (
     <div className="absolute shadow-md w-full h-[80px] flex justify-between items-center lg:px-20 px-11 bg-[#ffffff] text-[#36373b]">
       <div>
-        <p
-          className="text-2xl font-bold text-[#0097B2]"
-          style={{ fontFamily: 'Poppins, sans-serif' }}
-        >
-          Jayden.dev
-        </p>
+        <Link to="about" smooth={true} duration={650}>
+          <p
+            className="text-2xl font-bold text-[#0097B2] cursor-pointer"
+            style={{ fontFamily: 'Poppins, sans-serif' }}
+          >
+            Jayden.dev
+          </p>
+        </Link>
         {/* <img
         className="cursor-pointer"
         src={Logo}
