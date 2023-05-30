@@ -69,7 +69,7 @@ const Home = () => {
           className="w-30 flex justify-start items-center w-full gap-3 lg:pl-16"
         >
           <a
-            href="https://drive.google.com/file/d/1zA4dMjlRKRrqAqp9zjjzxtxOqqHN4VHu/view"
+            href="https://drive.google.com/file/d/1rUCucdQ7pPUXNGIuk3nV0WGhH-TsnGYh/view"
             target="_blank"
             rel="noopener noreferrer"
           >
